@@ -1,11 +1,12 @@
 from filestack import Client
+import os
 
-file_stack_key = "ASGikRXqSuSaYhmmCl5B5z"
+file_stack_key = os.environ['FILE_STACK_KEY']
 
 
 class FileSharer:
 
-    def __init__(self, filepath, api_key="ASGikRXqSuSaYhmmCl5B5z"):
+    def __init__(self, filepath, api_key=file_stack_key):
         self.filepath = filepath
         self.api_key = api_key
 

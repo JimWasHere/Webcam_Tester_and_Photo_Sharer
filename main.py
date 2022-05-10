@@ -7,7 +7,7 @@ import webbrowser
 from filesharer import FileSharer
 
 
-Builder.load_file('frontend.kv')
+kv = Builder.load_file('frontend.kv')
 
 
 class CameraScreen(Screen):

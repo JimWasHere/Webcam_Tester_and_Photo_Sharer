@@ -32,8 +32,10 @@
             id: img
             size_hint_y: 0.7
         Button:
-            text: "Create Shareable Link"
-            on_press: root.create_link()
+            text: "Take Another Picture"
+            on_press:
+                root.manager.current = "camera_screen"
+                root.manager.transition.direction = "left"
             size_hint_y: 0.1
 
         Label:

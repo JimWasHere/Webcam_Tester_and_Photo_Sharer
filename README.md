@@ -5,7 +5,7 @@ Simple Kivy app that allows user to test out their webcam as well as take, store
 I had no simple way to test my webcam.  This program allows the user to take and share 
 photos with the webcam.
 
-It uses Python with the Kivy App library, also makes use of the Filestack service to share photos
+It uses Python with the Kivy App library, also makes use of the Filestack service to share photos.
 
 Future upgrades:
   * A continue feature, as of now once you take a picture, you need to restart the program to take another one - [Done 5-9-2022]
